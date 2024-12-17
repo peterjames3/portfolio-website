@@ -12,6 +12,9 @@ import  joblisting from './assets/joblisting.png'
 import ecommerce from './assets/ecommerce.png'
 import productPage from './assets/product-page.png'
 import cal from './assets/cal.png'
+import  pho from './assets/pho.png'
+import blog from './assets/blog.png'
+import  vir from  './assets/vir.png'
 
 export {
     MongoDb,
@@ -21,11 +24,14 @@ export {
     ecommerce,
     html,
     css,
+    vir,
     javascript,
     materialUI,
     Msql,
     postgress,
     docker,
     react, 
-    tailwind
+    tailwind,
+    pho,
+    blog
 }

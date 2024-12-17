@@ -1,4 +1,4 @@
-import React from "react";
+
 import Achievements from "./Achievements";
 import { Link } from "react-scroll";
 import hero from "../assets/kim.png";
@@ -18,7 +18,7 @@ const Hero = () => {
                <span className="text-primary">Hello</span>
             </h1>
             <h1 data-aos="fade-up" className=" text-[min(12vw,3.5rem)]  font-bold text-white"> This is <span className="text-gradient-2">James Kamau, </span>
-              I'm a professional <span className="text-primary-accent">software  </span>
+              I'm a professional <span className="text-primary-accent">web  </span>
                Developer
             </h1>
         

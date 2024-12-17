@@ -6,7 +6,7 @@ import Education from "./Components/Education";
 import Project from "./Components/Project";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 function App() {

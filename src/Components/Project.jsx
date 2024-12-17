@@ -1,41 +1,47 @@
-import React from 'react'
+
 import ProjectCard from './ProjectCard'
 import {
-joblisting,
-ecommerce,
+vir,
 cal,
-productPage
+pho,
+blog
 } from "../tech";
 const Project = () => {
   const projects = [
     {
-      image: joblisting,
-      title: 'Job Listing/ Filtering',
-      description: 'Transforming education with AI, our School UI Design project revolutionizes the learning experience...',
-      stack: ['React', 'Zustand', 'Tailwindcss',"Vite" ],
-      demoLink: 'https://github.com/peterjames3/Job-filtering'
+      image: vir,
+      title: "Virtual Assistance Portfolio",
+      description:
+        "A professional portfolio website showcasing virtual assistant services. Designed to highlight skills, experience, and client testimonials with a clean and responsive layout.",
+      stack: ["Next.js", "TailwindCSS", "TypeScript"],
+      demoLink: "https://beatriceva.netlify.app/",
+    },
+
+    {
+      image: cal,
+      title: "Calculator ",
+      description:
+        "This calculator app  tested my CSS and JS skills especially. If you are wanting to practice using Grid, this challenge will be perfect for you",
+      stack: ["Vite", "Html", "Css", "Javascript"],
+      demoLink:
+        "https://github.com/peterjames3/calculator/tree/main/vite-project",
     },
     {
-      image: ecommerce,
-      title: 'E-Commerce Application',
-      description: 'hance your online shopping experience with our E-Commerce Application UI design project. Seamlessly blending aesthetics with functionality, our intuitive interface offers easy navigation, ',
-      stack: ['ReactJs', 'Contenxt API', 'Tailwindcss', 'React-Route'],
-      demoLink: 'https://6642861b275d19323f162770--zingy-dieffenbachia-3fdb05.netlify.app/'
+      image: pho,
+      title: "Photography Portfolio",
+      description:
+        "This portfolio website showcases a clean and responsive design, highlighting photography work. Built with modern technologies to enhance performance and user experience.",
+      stack: ["Next.js", "TailwindCSS", "TypeScript"],
+      demoLink: "https://photographer-w-ups4.vercel.app/",
     },
     {
-      image:  productPage,
-      title: 'Product page ',
-      description: 'Enhance your online shopping experience with our E-Commerce Application UI design project...',
-      stack: ['Vite', 'Html', 'Tailwindcss', 'Javascript'],
-      demoLink: 'https://6683aed48bf2fd00894961ed--whimsical-palmier-4b0b37.netlify.app/'
+      image: blog,
+      title: "Modern Blog Platform",
+      description:
+        "A sleek and minimalistic blog website designed to share articles seamlessly. Built with Next.js and powered by Sanity CMS for content management. Features include responsive design, optimized performance, and a focus on readability.",
+      stack: ["Next.js", "TailwindCSS", "TypeScript", "Sanity CMS"],
+      demoLink: "https://nextjs-sanity-blog-post-vowd.vercel.app/",
     },
-    {
-      image:  cal,
-      title: 'Calculator ',
-      description: 'This calculator app  tested my CSS and JS skills especially. If you are wanting to practice using Grid, this challenge will be perfect for you',
-      stack: ['Vite', 'Html', 'Css','Javascript'],
-      demoLink: 'https://github.com/peterjames3/calculator/tree/main/vite-project'
-    }
   ];
 
   return (
