@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -11,6 +10,7 @@ import {
   Msql,
   react,
   tailwind,
+  Sanitycms,
 } from "../tech";
 
 const Skills = () => {
@@ -34,14 +34,27 @@ const Skills = () => {
     { img: materialUI, title: "Material UI" },
     { img: react, title: "React" },
     { img: tailwind, title: "Tailwind" },
+    { img: Sanitycms, title: "Sanity" },
   ];
 
   return (
-    <section id="skill" className="py-4 text-white max-w-[1400px] my-5 mx-auto px-7 overflow-hidden">
+    <section
+      id="skill"
+      className="py-4 text-white max-w-[1400px] my-5 mx-auto px-7 overflow-hidden"
+    >
       <div className="shadow-lg shadow-bg-secondary py-4 cursor-default text-center max-w-[300px] uppercase font-bold my-10 mx-auto rounded-md text-5xl">
-        <h3 data-aos="fade-left" data-aos-delay='300' className="text-gradient-2">My Skills</h3>
+        <h3
+          data-aos="fade-left"
+          data-aos-delay="300"
+          className="text-gradient-2"
+        >
+          My Skills
+        </h3>
       </div>
-      <Slider {...settings} className=" grid gap-7 max-w-[500px] sm:max-w-[1400px] bg-bg-secondary">
+      <Slider
+        {...settings}
+        className=" grid gap-7 max-w-[500px] sm:max-w-[1400px] bg-bg-secondary"
+      >
         {skillsData.map((skill, index) => (
           <div
             key={index}

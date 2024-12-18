@@ -15,6 +15,7 @@ import cal from './assets/cal.png'
 import  pho from './assets/pho.png'
 import blog from './assets/blog.png'
 import  vir from  './assets/vir.png'
+import  Sanitycms from './assets/sanity.png'
 
 export {
     MongoDb,
@@ -33,5 +34,6 @@ export {
     react, 
     tailwind,
     pho,
-    blog
+    blog,
+    Sanitycms
 }

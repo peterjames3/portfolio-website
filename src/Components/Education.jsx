@@ -15,8 +15,7 @@ const Education = () => {
             <div className="absolute -left-8 top-2 w-8 h-8 rounded-full bg-black border-4 border-white -ml-2 md:-ml-10"></div>
             <div className="ml-8">
               <h3 className="text-lg font-bold">Bachelor's Degree</h3>
-              <p className="text-sm text-gray-500">Sept 2020 - Dec (2024)</p>
-              <p className="mt-1 font-semibold">JKUAT</p>
+               <p className="mt-1 font-semibold">JKUAT</p>
               <p className="mt-1 text-gray-600">
                 A current student studying for a Degree of Bachelor of Science
                 in Infomation Technology.
@@ -27,7 +26,6 @@ const Education = () => {
             <div className="absolute -left-8 top-2 w-8 h-8 rounded-full bg-black border-4 border-white -ml-2 md:-ml-10"></div>
             <div className="ml-8">
               <h3 data-aos="fade-left" data-aos-delay='300' className="text-lg font-bold text-primary-accent">Certificate</h3>
-              <p className="text-sm text-gray-500">Jan 2024 - June (2024)</p>
               <p className="mt-1 font-semibold">Cyber Shujaa</p>
               <p className="mt-1 text-gray-600">
                 Completed my short course on Ethical Hacking; Python
@@ -39,7 +37,6 @@ const Education = () => {
             <div className="absolute -left-8 top-2 w-8 h-8 rounded-full bg-black border-4 border-white -ml-2 md:-ml-10"></div>
             <div className="ml-8">
               <h3 className="text-lg font-bold">High School</h3>
-              <p className="text-sm text-gray-500">2016 - 2019</p>
               <p className="mt-1 font-semibold">Njumbi High School</p>
               <p className="mt-1 text-gray-600">
                 Completed my High schooling at Njumbi High - Murang'a.
