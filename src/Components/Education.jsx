@@ -1,21 +1,30 @@
-import React from "react";
-
 const Education = () => {
   return (
-    <section id='education' className="max-w-4xl my-6 mx-auto py-20 text-white px-4">
-      <h1 data-aos="fade-left" data-aos-delay='300'  className="text-6xl text-gradient-2 font-bold text-center mb-8 ">
+    <section
+      id="education"
+      className="max-w-4xl my-6 mx-auto py-20 text-white px-4"
+    >
+      <h1
+        data-aos="fade-left"
+        data-aos-delay="300"
+        className="text-6xl text-gradient-2 font-bold text-center mb-8 "
+      >
         Education
       </h1>
       <div className="border-l-2 border-gray-300 ml-8">
         <div className="mb-8">
-          <h2 data-aos="fade-right" data-aos-delay='300' className="text-xl pl-8  text-primary-accent font-semibold">
+          <h2
+            data-aos="fade-right"
+            data-aos-delay="300"
+            className="text-xl pl-8  text-primary-accent font-semibold"
+          >
             Education
           </h2>
           <div className="mt-6 relative flex items-start">
             <div className="absolute -left-8 top-2 w-8 h-8 rounded-full bg-black border-4 border-white -ml-2 md:-ml-10"></div>
             <div className="ml-8">
-              <h3 className="text-lg font-bold">Bachelor's Degree</h3>
-               <p className="mt-1 font-semibold">JKUAT</p>
+              <h3 className="text-lg font-bold">Bachelor&apos;s Degree</h3>
+              <p className="mt-1 font-semibold">JKUAT</p>
               <p className="mt-1 text-gray-600">
                 A current student studying for a Degree of Bachelor of Science
                 in Infomation Technology.
@@ -25,7 +34,13 @@ const Education = () => {
           <div className="mt-6 relative flex items-start">
             <div className="absolute -left-8 top-2 w-8 h-8 rounded-full bg-black border-4 border-white -ml-2 md:-ml-10"></div>
             <div className="ml-8">
-              <h3 data-aos="fade-left" data-aos-delay='300' className="text-lg font-bold text-primary-accent">Certificate</h3>
+              <h3
+                data-aos="fade-left"
+                data-aos-delay="300"
+                className="text-lg font-bold text-primary-accent"
+              >
+                Certificate
+              </h3>
               <p className="mt-1 font-semibold">Cyber Shujaa</p>
               <p className="mt-1 text-gray-600">
                 Completed my short course on Ethical Hacking; Python
@@ -39,13 +54,17 @@ const Education = () => {
               <h3 className="text-lg font-bold">High School</h3>
               <p className="mt-1 font-semibold">Njumbi High School</p>
               <p className="mt-1 text-gray-600">
-                Completed my High schooling at Njumbi High - Murang'a.
+                Completed my High schooling at Njumbi High - Murang&apos;a.
               </p>
             </div>
           </div>
         </div>
         <div className="mb-8">
-          <h2 data-aos="fade-left" data-aos-delay='300' className="text-xl pl-8 text-primary-accent font-semibold">
+          <h2
+            data-aos="fade-left"
+            data-aos-delay="300"
+            className="text-xl pl-8 text-primary-accent font-semibold"
+          >
             Communities
           </h2>
           <div className="mt-6 relative flex items-start">
