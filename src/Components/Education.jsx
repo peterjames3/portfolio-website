@@ -10,7 +10,7 @@ const Education = () => {
         className="text-6xl text-gradient-2 font-bold text-center mb-8 "
       >
         Education
-      </h1>
+      </h1> de
       <div className="border-l-2 border-gray-300 ml-8">
         <div className="mb-8">
           <h2
