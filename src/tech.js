@@ -8,14 +8,17 @@ import postgress from "./assets/postgresql.57f0feb0.svg"
 import docker from './assets/docker.1fd925da.svg'
 import react from './assets/react.svg'
 import tailwind from './assets/tailwind.0327ce72.svg'
-import  joblisting from './assets/joblisting.png'
+import joblisting from './assets/joblisting.png'
 import ecommerce from './assets/ecommerce.png'
 import productPage from './assets/product-page.png'
 import cal from './assets/cal.png'
-import  pho from './assets/pho.png'
+import pho from './assets/pho.png'
 import blog from './assets/blog.png'
-import  vir from  './assets/vir.png'
-import  Sanitycms from './assets/sanity.png'
+import vir from './assets/vir.png'
+import Sanitycms from './assets/sanity.png'
+import TutorDashboard from './assets/tutor-dashboard.png';
+import SunsetBright from './assets/sunsetBright.png';
+import KimGym from './assets/kimgym.png'
 
 export {
     MongoDb,
@@ -31,9 +34,12 @@ export {
     Msql,
     postgress,
     docker,
-    react, 
+    react,
     tailwind,
     pho,
     blog,
-    Sanitycms
+    Sanitycms,
+    TutorDashboard,
+    SunsetBright,
+    KimGym
 }
