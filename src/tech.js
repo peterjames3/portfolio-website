@@ -19,6 +19,7 @@ import Sanitycms from './assets/sanity.png'
 import TutorDashboard from './assets/tutor-dashboard.png';
 import SunsetBright from './assets/sunsetBright.png';
 import KimGym from './assets/kimgym.png'
+import TutorWebsite from './assets/tutor-website.png';
 
 export {
     MongoDb,
@@ -41,5 +42,6 @@ export {
     Sanitycms,
     TutorDashboard,
     SunsetBright,
-    KimGym
+    KimGym,
+    TutorWebsite
 }

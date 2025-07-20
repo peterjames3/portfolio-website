@@ -7,6 +7,7 @@ import {
   TutorDashboard,
   SunsetBright,
   KimGym,
+  TutorWebsite
 } from "../tech";
 const Project = () => {
   const projects = [
@@ -81,6 +82,14 @@ const Project = () => {
         "A dynamic and engaging fitness website designed to showcase gym services, trainers, and programs. Built with React and TailwindCSS, KimGym emphasizes performance, responsiveness, and user-friendly navigation. Features include animated sliders, FAQs, and SEO optimization with React Helmet.",
       stack: ["React", "TailwindCSS", "Framer Motion", "React Helmet"],
       demoLink: "https://kimgym.netlify.app/",
+    },
+    {
+      image: TutorWebsite,
+      title: "Tutor Connect - Empowering Education",
+      description:
+        "A modern and intuitive platform designed to connect tutors and learners. Developed with React and TailwindCSS, Tutor Connect emphasizes simplicity, speed, and accessibility. The site features a clean UI, responsive design, smooth transitions with Framer Motion, and optimized metadata using React Helmet for enhanced SEO.",
+      stack: ["React", "TailwindCSS", "Framer Motion", "React Helmet"],
+      demoLink: "https://tutor-website-e2o5.vercel.app/",
     },
   ];
 
