@@ -1,5 +1,7 @@
 
 
+import PropTypes from 'prop-types';
+
 const ProjectCard = ({ image, title, description, stack, demoLink }) => {
   return (
     <div className="w-full rounded overflow-hidden shadow-lg bg-gray-900 text-white">
@@ -28,6 +30,14 @@ const ProjectCard = ({ image, title, description, stack, demoLink }) => {
       </div>
     </div>
   );
+};
+
+ProjectCard.propTypes = {
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  stack: PropTypes.arrayOf(PropTypes.string).isRequired,
+  demoLink: PropTypes.string.isRequired,
 };
 
 export default ProjectCard;
